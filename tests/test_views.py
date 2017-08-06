@@ -15,6 +15,10 @@ class HomeViewTest(TestCase):
 
     def test_get_home(self):
         '''Test GET request for home view'''
+        request = self.factory.get(reverse('home'))
+        request.user = self.user
+        self.assertEqual(response.context_data['user'], self.user)
+        self.assertEqual(response.context_data['request'], request)
 
 class DiaryViewTest(TestCase):
     '''
@@ -26,3 +30,8 @@ class DiaryViewTest(TestCase):
 
     def test_get_diary(self):
         '''Test GET request for diary view'''
+        request = self.factory.get(reverse('diary'))
+        request.user = self.user
+        self.assertEqual(response.context_data['user'], self.user)
+        self.assertEqual(response.context_data['request'], request)
+        self.assertEqual(response.context_data['request'], request)
