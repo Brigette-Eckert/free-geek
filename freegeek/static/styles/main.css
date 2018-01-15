@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#nav {
+    min-height: 1em;
+    height: 70px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.navbar-header, .navbar-brand {
+    padding: 0 10px;
+    height: 68px;
+}
+
+.navbar-inverse {
+    background-color: #000;
+}
+
+.navbar-brand img {
+    margin: 0;
+    height: 68px;
+    border-radius: 5px 0 0 5px;
+}
+
+.nav.navbar-nav li a {
+    height: 68px;
+    color: #eee;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 22px 15px;
+}
+.nav.navbar-nav li:hover {
+    background-color: #444;
+    color: #fff;
+}
