@@ -1,4 +1,6 @@
 from django.shortcuts import render, HttpResponseRedirect
+from django.http import HttpResponse
+import json
 
 def home(request):
     return render(request, 'home.html')
