@@ -2,6 +2,9 @@
 
 Source code and documentation for the ["Code for Good" Conference](http://codeforgood.io/) (hackathon) for [Free Geek](http://www.freegeek.org/).
 
+# NOTE
+
+Please contribute to/ start with the  DEVELOP BRANCH and not master for now. We have made significant changes to this project, and starting with a clean slate on develop. 
 ## Getting Started
 
 Check out [the docs](/docs) where we keep a copy of the [feature requests](/docs/Code%20For%20Good%20project.odt) from Free Geek staff.
@@ -16,7 +19,6 @@ $ pip install geeksched
 ```
 
 ## Contributing
-
 ```shell
 $ git clone https://github.com/codeforgoodconf/freegeek.git
 $ mkvirtualenv freegeek
